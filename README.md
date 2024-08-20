@@ -1,4 +1,4 @@
 # html-css
  Aulas curso em Víseo HTML5 e CSS3
 
- Estou aprendendo a criat sites e agora vou gerenciar meus repositórios!
+ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
