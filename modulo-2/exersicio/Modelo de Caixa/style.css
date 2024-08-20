@@ -1,0 +1,19 @@
+h1 {/* BOX-LEVEL*/
+    background-color: lightgray;
+    height: 300px;/* altura*/
+    width: 300px;/*largora*/
+    
+    border: 10px solid darkgrey;
+
+    padding: 10px;/* padding e o espaçamento emtre texto ou conteudo da borda da caixa*/
+
+    margin: auto; /* serfi para sentralizar uma caixa*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {/* INLINE-LEVEL*/
+    border: 10px solid red;
+
+    padding: 10px;
+}

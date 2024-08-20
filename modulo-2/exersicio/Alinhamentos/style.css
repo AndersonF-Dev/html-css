@@ -1,0 +1,16 @@
+body {
+    font: normal 16px Arial, Verdana, serif;
+}
+
+h1 {
+    text-align: center;/* O text-align: center; serve para alinhar o texto no centro*/
+}
+
+h2  {
+    text-align: right;/* O text-align: right; serve para alinhar o texto a direita*/
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px; /* */
+}

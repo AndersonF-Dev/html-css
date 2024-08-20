@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a { /* para auterar a cor do link*/
+    color: red;
+    text-decoration: none;/* Para retirar o subrimhado dos links*/
+    
+}
+
+a:visited { /* Para colocar uma cor nos links que ja foram visitados*/
+    color: rgb(8, 141, 141);
+}
+a:hover {
+    color: rgb(36, 36, 39); /* Para auterar a cor do link quando o mouser passar em sima*/
+    text-decoration: underline;/* Para colocar um subrinhado quando o mouser pasar emcima do link*/
+}
+
+a:active {
+    color: rgb(247, 134, 54); /* servi para deichar a cor do link diferente quando for clicado*/
+}
+
+/* 
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo_element
+            > = clildren
+
+*/

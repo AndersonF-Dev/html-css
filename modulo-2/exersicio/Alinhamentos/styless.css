@@ -1,0 +1,25 @@
+div {
+    background-color: rgb(183, 184, 185);
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    height: 200px;/* height e Altura*/
+    width: 200px;/* widht e Largura*/
+    display: inline-flex;
+}
+
+div:hover {
+    background-color: rgb(34, 153, 153);
+    
+}
+.posicao > p {/* Para esconder o conteudo do Paragrafo*/
+    display: none;
+    
+}
+
+.posicao:hover > p {/* Para exibir o conteudo do paragrafo */
+    display: block;
+    color: rgb(255, 255, 255);
+    
+    
+}

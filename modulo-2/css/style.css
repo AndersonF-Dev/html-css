@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: #468C73;
+}
+
+main {
+    background-color: #29A678;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+p {
+    color: #3C3C40;
+    font-family: Poppins;
+    text-align: justify;
+}
+
+h1 {
+    color: #3C3C40;
+}
+
+h2 {
+    color: #3C3C40;
+}
