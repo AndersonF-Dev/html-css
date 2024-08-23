@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Coconut House;
+    src: url(../fonts/Coconut\ House.ttf);
+}
+@font-face {
+    font-family: xilosa;
+    src: url(../fonts/xilosa.ttf);
+}
+@font-face {
+    font-family: Cordel Encarnado;
+    src: url(../fonts/Cordel\ Encarnado.otf);
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -10,17 +22,21 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-image: url(../imagens/cordel.jpg);
+    
     color: #ffffff;
     text-align: center;
 }
 
 header > h1 {
+    font-family: Cordel Encarnado;
+    font-size: 4em;
     padding-top: 50px;
     font-variant: small-caps;/* Para deixar a primenra letra maiuscola e as outras também maiuscola mais um pouco menor*/
 }
 
 header > p {
+    font-family: Cordel Encarnado;
     padding-bottom: 50px;
 }
 
@@ -35,6 +51,8 @@ header a:hover, footer a:hover {
 }
 
 section {
+    font-size: 1.5em;
+    font-family: xilosa;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -52,7 +70,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
